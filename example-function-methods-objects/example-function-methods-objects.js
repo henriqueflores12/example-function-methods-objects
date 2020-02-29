@@ -52,7 +52,7 @@
     day = dayNames[weekFromToday.getDay()];
     date = weekFromToday.getDay();
     month = monthNames[weekFromToday.getMonth()];
-    year = weekFromToday.getUTCFullYear();
+    year = weekFromToday.getFullYear();
 
     expiryMsg = "Offer expires next ";
     expiryMsg += day + " <br/>" + date + " " + month + " " + year + "";
