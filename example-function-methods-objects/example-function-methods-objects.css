@@ -1,0 +1,71 @@
+body {
+    background-image: url(https://r-cf.bstatic.com/images/hotel/max1024x768/736/7360036.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top;
+    font-size: 15mm;
+  }
+  #boarder {
+    width: 600px;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    margin-left: 170mm;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    display: grid;
+    justify-content: center;
+    font-size: 15mm;
+  }
+  #msg1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    color: green;
+  }
+  #hotelName {
+    font-style: italic;
+    font-size: 8mm;
+    margin-top: 30px;
+    color: peru;
+  }
+  #roomRate {
+    color: gold;
+    font-style: italic;
+    font-size: 15mm;  
+    margin-left: 230mm;   
+  }
+  #specialRate{
+    color: blue;
+    font-style: italic;
+    font-size: 15mm;  
+    margin-left: 230mm;
+  }
+  #offerEnds{
+    color: red;
+    font-style: italic;
+    font-size: 15mm;  
+    margin-left: 230mm;
+  }
+  #hotelName:hover {
+    color:blueviolet;
+  }
+  #roomRate:hover {
+    color: red;
+  }
+  #specialRate:hover{
+   color: brown;
+  }
+  #offerEnds:hover{
+    color: blue;
+  }
+  #box{
+    margin-top: 10px;
+    margin-bottom: 1000px;
+    font-style: italic;
+    font-size: 20mm; 
+  }
+  #msg1:hover{
+    color: maroon;
+  }
+
+ 
