@@ -1,71 +1,101 @@
 body {
-    background-image: url(https://r-cf.bstatic.com/images/hotel/max1024x768/736/7360036.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: top;
-    font-size: 15mm;
-  }
-  #boarder {
-    width: 600px;
-    border-top: 2px solid;
-    border-bottom: 2px solid;
-    margin-left: 170mm;
-    margin-top: 10px;
-    margin-bottom: 0px;
-    display: grid;
-    justify-content: center;
-    font-size: 15mm;
-  }
-  #msg1 {
-    display: flex;
-    justify-content: center;
-    margin-top: 40px;
-    color: green;
-  }
-  #hotelName {
-    font-style: italic;
-    font-size: 8mm;
-    margin-top: 30px;
-    color: peru;
-  }
-  #roomRate {
-    color: gold;
-    font-style: italic;
-    font-size: 15mm;  
-    margin-left: 230mm;   
-  }
-  #specialRate{
-    color: blue;
-    font-style: italic;
-    font-size: 15mm;  
-    margin-left: 230mm;
-  }
-  #offerEnds{
-    color: red;
-    font-style: italic;
-    font-size: 15mm;  
-    margin-left: 230mm;
-  }
-  #hotelName:hover {
-    color:blueviolet;
-  }
-  #roomRate:hover {
-    color: red;
-  }
-  #specialRate:hover{
-   color: brown;
-  }
-  #offerEnds:hover{
-    color: blue;
-  }
-  #box{
-    margin-top: 10px;
-    margin-bottom: 1000px;
-    font-style: italic;
-    font-size: 20mm; 
-  }
-  #msg1:hover{
-    color: maroon;
-  }
-
+  background-image: url(https://r-cf.bstatic.com/images/hotel/max1024x768/736/7360036.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: top;
+  font-size: 7mm;
+  display: flex;
+  
  
+}
+#boarder {
+  border-top-style: solid;
+  border-top-color:whitesmoke;
+  border-bottom-style: solid;
+  border-bottom-color:whitesmoke; 
+  width: 400px;
+  font-size: 100px;
+  display: grid;
+  justify-content: center;
+  margin-left: 70px;
+}
+#msg1 {
+  margin-top: 40px;
+  color: green;
+  margin-bottom: 0px;
+  margin-left: 80px;
+}
+#hotelName {
+ 
+  font-style: italic;
+  margin-top: 30px;
+  color: whitesmoke;
+}
+#roomRate {
+  color: whitesmoke;
+  font-style: italic;
+  font-size: 10mm;
+  margin-top: 50px;
+  margin-left: 59px;
+ 
+}
+#specialRate {
+  color: gold;
+  font-style: italic;
+  font-size: 20mm;
+  margin-left: 180px;
+
+}
+#offerEnds {
+  color: orangered;
+  font-style: italic;
+  font-size: 15mm;
+  margin-left: 20px;
+  margin-left: 20px;
+}
+#hotelName:hover {
+  color: blueviolet;
+}
+#roomRate:hover {
+  color: red;
+}
+#specialRate:hover {
+  color: brown;
+}
+#offerEnds:hover {
+  color: yellowgreen;
+}
+#box {
+  /* margin-top: 10px;
+  margin-bottom: 1000px; */
+  /* font-style: italic; */
+}
+#msg1:hover {
+  color: maroon;
+}
+#blackBox{
+  border-style: solid;
+  color: whitesmoke;
+  height: 1000px;
+  width: 600px;
+ display: grid;
+ justify-content: center;
+ margin-left: 1000px;
+ background-color: black; 
+}
+#box1{
+  border-style: solid;
+  width: 400px;
+  height: 400px;
+  margin-right: 0px;
+  margin-left: 0px;
+  background-color: black;
+  color: whitesmoke;
+  display: flex;
+  justify-content: center;
+}
+#box2{
+  font-size: 60px;
+  margin-top: 120px;
+  margin-left: 28px;
+}
